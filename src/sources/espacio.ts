@@ -11,7 +11,6 @@ export const espacioSources: SourcesMap = {
     slug: "space-videos",
     name: "🔭 NASA ISS Live Stream",
     youtubeVideoId: "UCakgsb0w7QB0VHdnCc-OVEA",
-    fuente: "https://www.youtube.com/channel/UCakgsb0w7QB0VHdnCc-OVEA/live",
   },
   "space-videos-2": {
     slug: "space-videos-2",
