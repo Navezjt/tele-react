@@ -10,7 +10,7 @@ export const espacioSources: SourcesMap = {
   "space-videos": {
     slug: "space-videos",
     name: "🔭 NASA ISS Live Stream",
-    youtubeVideoId: "UCakgsb0w7QB0VHdnCc-OVEA",
+    youtubeVideoId: "_HGQZlK08gQ",
     fuente: "https://www.youtube.com/channel/UCakgsb0w7QB0VHdnCc-OVEA/live",
   },
   "space-videos-2": {
@@ -21,13 +21,13 @@ export const espacioSources: SourcesMap = {
   "nasa-spaceflight": {
     slug: "nasa-spaceflight",
     name: "🔭 NASASpaceflight",
-    youtubeVideoId: "UCSUu1lih2RifWkKtDOJdsBA",
-    youtubeChannelId: "UCSUu1lih2RifWkKtDOJdsBA",
+    youtubeVideoId: "Jm8wRjD3xVA",
+    youtubeChannelId: "https://www.youtube.com/channel/UCSUu1lih2RifWkKtDOJdsBA/live",
   },
   "espacio-tierra": {
     slug: "espacio-tierra",
     name: "🔭 Earth view from ISS",
-    youtubeVideoId: "XBPjVzSoepo",
+    youtubeVideoId: "YX6ZkguphNs",
     fuente: "https://www.youtube.com/channel/UCaG0IHN1RMOZ4-U3wDXAkwA/live",
   },
   labpadre: {
