@@ -69,7 +69,7 @@ const argentinaSources: SourcesMap = {
     slug: 'ip-digital-0',
     name: 'Información Periodistica',
     m3u8Url:
-      'https://cdn.iframe.ly/api/iframe?amp=1&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DHTkRWgGltQw&key=284d6b492934666274563e3e1a67cadd',
+      'https://d1nmqgphjn0y4.cloudfront.net/live/ip/live.isml/live-audio_1=128000-video=2800000.m3u8?WebM3UCL',
     fuente: 'https://ip.digital/vivo',
     flag: 'ar'
   },
