@@ -75,7 +75,7 @@ const Home: NextPage = () => {
 
       <main>
         <div className="container text-center text-white pt-3">
-          <h1>Ver Tele</h1>
+          <h1>CNJTV</h1>
 
           <HomeElement
             href="/monitor"
