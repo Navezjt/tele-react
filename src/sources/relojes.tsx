@@ -10,16 +10,3 @@ export const relojesSources: SourcesMap = {
       "https://reloj-alarma.es/embed/hora/Santiago_CL/CHILE+CONTINENTAL/#theme=1&color=4&ampm=0&showdate=0",
   },
 };
-
-import { SourcesMap } from ".";
-import { BsClockFill } from "react-icons/bs";
-
-export const relojesSources: SourcesMap = {
-  RELOJ_PERU: {
-    slug: "RELOJ_PERU",
-    name: "RELOJ PERU",
-    titleIcons: [<BsClockFill key="clock" />],
-    iframeSrc:
-      "https://reloj-alarma.es/embed/hora/Lima_PE/PERU+CONTINENTAL/#theme=1&color=4&ampm=0&showdate=0",
-  },
-};
