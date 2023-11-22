@@ -20,6 +20,6 @@ export const relojesSources: SourcesMap = {
     name: "RELOJ CHILE",
     titleIcons: [<BsClockFill key="clock" />],
     iframeSrc:
-      "https://reloj-alarma.es/embed/#theme=1&color=3&ampm=0&showdate=1&sound=bells",
+      "https://reloj-alarma.es/embed/hora/Lima_PE/PERU+CONTINENTAL/#theme=1&color=4&ampm=0&showdate=0",
   },
 };
