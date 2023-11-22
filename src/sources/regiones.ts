@@ -14,17 +14,17 @@ export const regionesDosSources: SourcesMap = {
   ARICA_TV: {
     slug: 'ARICA_TV',
     name: 'ARICA TV',
-    m3u8Url: 'https://5eff35271151c.streamlock.net:1936/8002/8002/playlist.m3u8'
+    m3u8Url: 'https://5eaccbab48461.streamlock.net:1936/8002/8002/chunklist_w190160343.m3u8'
   },
   ATACAMA_TV: {
     slug: 'ATACAMA_TV',
     name: 'ATACAMA TV',
-    m3u8Url: 'https://v2.tustreaming.cl/atacamatv/index.m3u8'
+    m3u8Url: 'https://v2.tustreaming.cl/atacamanoticias/index.m3u8?PlaylistM3UCL'
   },
   AYSENTV: {
     slug: 'AYSENTV',
     name: 'AYSENTV',
-    m3u8Url: 'https://v2.tustreaming.cl/aysentv/index.m3u8'
+    m3u8Url: 'https://v1.tustreaming.cl/aysentv/tracks-v1a1/mono.m3u8'
   },
   CAMPUS_TV: {
     slug: 'CAMPUS_TV',
@@ -46,7 +46,7 @@ export const regionesDosSources: SourcesMap = {
   CANAL5_PTOMONTT: {
     slug: 'CANAL5_PTOMONTT',
     name: 'CANAL5 PTOMONTT',
-    m3u8Url: 'https://srv2.zcast.com.br/canal5tv/canal5tv/playlist.m3u8'
+    m3u8Url: 'https://stmv5.voxtvhd.com.br/canal5/canal5/chunklist_w2053126250.m3u8'
   },
   CANAL9BIOBIOTV: {
     slug: 'CANAL9BIOBIOTV',
@@ -56,13 +56,25 @@ export const regionesDosSources: SourcesMap = {
   CAPPISSIMA_TV: {
     slug: 'CAPPISSIMA_TV',
     name: 'ARICA | CAPPISSIMA TV',
-    m3u8Url: 'http://cl.streaminghd.cl/cappissima/cappissima/playlist.m3u8'
+    m3u8Url: 'https://sthd-player.cl/video/index.php?s=cappissima'
+  },
+  'CAPPISSIMA_TV1': {
+    slug: 'CAPPISSIMA_TV',
+    titleHtml: 'CAPPISSIMA_TV',
+    iframeSrc: 'https://sthd-player.cl/video/index.php?s=cappissima',
+    fuente: 'https://cappissimamultimedial.cl/'
+   },
+  'CONTIVISION_TV': {
+    slug: 'CONTIVISION_TV',
+    titleHtml: 'CONTIVISION_TV',
+    iframeSrc: 'https://rudo.video/live/cm',
+    fuente: 'https://contivision.cl/senal-en-vivo'
   },
   CONTIVISION: {
     slug: 'CONTIVISION',
     name: 'CONTIVISION',
     m3u8Url:
-      'https://unlimited2-cl-isp.dps.live/contivision/contivision.smil/playlist.m3u8'
+      'https://unlimited1-us.dps.live/cm/cm.smil/cm/livestream2/chunks.m3u8?nimblesessionid=4479478968'
   },
   DECIMA_TV: {
     slug: 'DECIMA_TV',
@@ -86,25 +98,49 @@ export const regionesDosSources: SourcesMap = {
     name: 'ITV',
     m3u8Url: 'https://unlimited1-cl-isp.dps.live/itv/itv.smil/playlist.m3u8'
   },
+  'LRP_TV1': {
+    slug: 'LRP_TV1',
+    titleHtml: 'LRP_TV',
+    iframeSrc: 'https://cdn.jwplayer.com/players/BLRk0a6b-3bWnXcWy.html',
+    fuente: 'https://www.lrptelevision.com/'
+  },
   LRP_TV: {
     slug: 'LRP_TV',
     name: 'ANTOFAGASTA | LRP TV',
     m3u8Url: 'https://v2.tustreaming.cl/lrp/index.m3u8'
   },
+  'LTV_TV1': {
+    slug: 'LTV_TV1',
+    titleHtml: 'LTV_TV',
+    iframeSrc: 'https://panel.fiberstreams.com:8080/VideoPlayer/6022',
+    fuente: 'https://www.ltv.hn/ltv-en-vivo/'
+  },
   LTV: {
     slug: 'LTV',
     name: 'LTV',
-    m3u8Url: 'https://medios.sirtel.cl/live/stream/index.m3u8'
+    m3u8Url: 'https://5e85d90130e77.streamlock.net:443/6022/6022/playlist.m3u8'
+  },
+  'MIRADIO_TV1': {
+    slug: 'MIRADIO_TV1',
+    titleHtml: 'MIRADIO_TV1',
+    iframeSrc: 'https://live.grupoz.cl/7228e98d389d9d54ca6d5ab974f2ea15',
+    fuente: 'https://www.miradiols.cl/mi-radio-tv/'
   },
   MIRADIO_TV: {
     slug: 'MIRADIO_TV',
     name: 'COQUIMBO | MI RADIO TV',
-    m3u8Url: 'https://v2.tustreaming.cl/miradiotv/rewind-999999.m3u8'
+    m3u8Url: 'https://tls-cl.cdnz.cl/miradio2/live/chunklist.m3u8'
+  },
+  'OSORNO_TV1': {
+    slug: 'OSORNO_TV1',
+    titleHtml: 'OSORNO_TV1',
+    iframeSrc: 'https://panel.tvstream.cl:2020/VideoPlayer/8036?autoplay=1',
+    fuente: 'https://www.osornotv.cl/envivo.html'
   },
   OSORNO_TV: {
     slug: 'OSORNO_TV',
     name: 'OSORNO TV',
-    m3u8Url: 'https://hd.chileservidores.cl:1936/osorno2/live/playlist.m3u8'
+    m3u8Url: 'https://panel.tvstream.cl:1936/8036/8036/chunklist_w1049894691.m3u8'
   },
   PINGUINO_TV: {
     slug: 'PINGUINO_TV',
