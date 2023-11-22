@@ -68,7 +68,7 @@ const argentinaSources: SourcesMap = {
   'ip-digital-0': {
     slug: 'ip-digital-0',
     name: 'Información Periodistica',
-    srcUrl:
+    m3u8Url:
       'https://cdn.iframe.ly/api/iframe?amp=1&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DHTkRWgGltQw&key=284d6b492934666274563e3e1a67cadd',
     fuente: 'https://ip.digital/vivo',
     flag: 'ar'
