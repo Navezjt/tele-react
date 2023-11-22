@@ -22,7 +22,7 @@ export const espacioSources: SourcesMap = {
     slug: "nasa-spaceflight",
     name: "🔭 NASASpaceflight",
     youtubeVideoId: "Jm8wRjD3xVA",
-    youtubeChannelId: "https://www.youtube.com/channel/UCSUu1lih2RifWkKtDOJdsBA/live",
+    fuente: "https://www.youtube.com/channel/UCSUu1lih2RifWkKtDOJdsBA/live",
   },
   "espacio-tierra": {
     slug: "espacio-tierra",
