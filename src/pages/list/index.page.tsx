@@ -7,7 +7,7 @@ import { MainLayout } from '../../layout/MainLayout';
 import { SourceType, SourceInputType } from '../../sources';
 
 export function useSavedSelectedItem() {
-  return useLocalStorageState<string | undefined>('__tele_selected__');
+  return useLocalStorageState<string | undefined>('__CNJTV_selected__');
 }
 
 const ListPage: NextPage = () => {
@@ -20,7 +20,7 @@ const ListPage: NextPage = () => {
   return (
     <MainLayout>
       <Head>
-        <title>Tele - List</title>
+        <title>CNJTV - List</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
