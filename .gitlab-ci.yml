@@ -1,4 +1,4 @@
-image: creatiwww/docker-compose 
+image: creatiwww/docker-compose
 
 before_script:
   - docker info
