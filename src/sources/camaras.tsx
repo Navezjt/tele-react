@@ -1,4 +1,4 @@
-import { BsCameraFill } from 'react-icons/bs'; 
+import { BsCameraFill } from 'react-icons/bs';
 import { SourcesMap } from '.';
 
 const cameraIcon = <BsCameraFill key="camara" />;
