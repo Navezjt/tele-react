@@ -1,4 +1,4 @@
-var playerJw; 
+var playerJw;
 
 $(window).ready(function() {
     var isActiveFloatBox = false;
