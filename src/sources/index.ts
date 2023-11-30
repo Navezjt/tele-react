@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import { camarasSources } from './camaras';
 import { chileSources } from './chile';
 import { datosSources } from './datos';
