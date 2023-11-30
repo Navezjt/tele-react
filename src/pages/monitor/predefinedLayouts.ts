@@ -1,4 +1,4 @@
-import { LayoutType } from './types';
+import { LayoutType } from './types'; 
 
 export const initialLayout: LayoutType = {
   rows: [
