@@ -1,4 +1,4 @@
-import { BsFullscreen, BsPaintBucket } from 'react-icons/bs'; 
+import { BsFullscreen, BsPaintBucket } from 'react-icons/bs';
 import { SourcesMap } from '.';
 
 export const placeHolderSources: SourcesMap = {
