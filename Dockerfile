@@ -1,4 +1,4 @@
-# Install dependencies only when needed
+# Install dependencies only when needed 
 FROM node:alpine AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
