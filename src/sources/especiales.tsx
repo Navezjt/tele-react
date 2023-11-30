@@ -1,4 +1,4 @@
-import { FaBroadcastTower } from 'react-icons/fa'; 
+import { FaBroadcastTower } from 'react-icons/fa';
 import { SourcesMap } from '.';
 import { ZappingSource } from '../components/Monitor/SourceOutput/SourceProvider/ZappingSource';
 
