@@ -1,4 +1,4 @@
-import { SourcesMap } from '.';
+import { SourcesMap } from '.'; 
 
 export const tvNacionalYoutubeSources: SourcesMap = {
   '24HTVN_YT': {
