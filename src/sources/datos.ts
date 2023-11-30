@@ -1,4 +1,4 @@
-import { SourcesMap } from '.'; 
+import { SourcesMap } from '.';
 
 export const datosSources: SourcesMap = {
   'corona-pagina': {
