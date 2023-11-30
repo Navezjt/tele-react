@@ -1,4 +1,4 @@
-import { ZappingConfig } from '../../hooks/useZappingConfig';
+import { ZappingConfig } from '../../hooks/useZappingConfig'; 
 import { SourceType } from '../../sources';
 
 export type SourceNode = {
