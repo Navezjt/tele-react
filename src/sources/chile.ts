@@ -1,4 +1,4 @@
-import { SourcesMap } from '.'; 
+import { SourcesMap } from '.';
 
 export const chileSources: SourcesMap = {
   PANAMERICANOS_1: {
