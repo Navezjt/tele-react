@@ -8,7 +8,7 @@ type Props = {
   onRemove?: (idx: number) => void;
   editingSourceIdx?: number;
   onSwitch?: OnSwitchCb;
-}; 
+};
 
 export function GridDisplay({
   size,
