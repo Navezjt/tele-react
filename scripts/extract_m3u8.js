@@ -9,7 +9,7 @@ const files = fs.readdirSync(resolvedPath);
 const matches = [];
 console.log('files', files);
 const notMatched = [];
-
+ 
 for (const filename of files) {
   const filepath = path.join(resolvedPath, filename);
   const file = fs.readFileSync(filepath, 'utf8');
