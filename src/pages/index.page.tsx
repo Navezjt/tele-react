@@ -68,14 +68,14 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Ver Tele</title>
+        <title>CNJTV</title>
         <meta name="description" content="Visor de canales de TV chilena" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <div className="container text-center text-white pt-3">
-          <h1>Ver Tele</h1>
+          <h1>CNJTV</h1>
 
           <HomeElement
             href="/monitor"
