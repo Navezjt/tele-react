@@ -65,14 +65,6 @@ const argentinaSources: SourcesMap = {
     fuente: 'https://ip.digital/vivo',
     flag: 'ar'
   },
-  'ip-digital-0': {
-    slug: 'ip-digital-0',
-    name: 'Información Periodistica 0',
-    m3u8Url:
-      'https://d1nmqgphjn0y4.cloudfront.net/live/ip/live.isml/5ee6e167-1167-4a85-9d8d-e08a3f55cff3.m3u8?PlaylistM3UCL',
-    fuente: 'https://ip.digital/vivo',
-    flag: 'ar'
-  },
   'ip-digital-2': {
     slug: 'ip-digital-2',
     name: 'IP Noticias',
@@ -94,13 +86,6 @@ const colombiaSources: SourcesMap = {
     youtubeChannelId: 'UC2Xq2PK-got3Rtz9ZJ32hLQ',
     flag: 'co'
   },
-  'red-mas-noticias1': {
-    slug: 'red-mas-noticias1',
-    name: 'RED MÁS Noticias1',
-    m3u8Url: 'https://inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel(REDMASHDWEB)/master.m3u8',
-    fuente: 'https://redmas.com.co/senal-en-vivo/',
-    flag: 'co'
-  },
   'red-mas-noticias': {
     slug: 'red-mas-noticias',
     name: 'RED MÁS Noticias',
@@ -116,12 +101,12 @@ const peruSources: SourcesMap = {
     youtubeChannelId: 'UCkZCoc42IipR1ucqJmIehsA',
     flag: 'pe'
   },
-  'autentica-tv': {
-    slug: 'autentica-tv',
-    name: 'autentica TV',
+  'nacional-tv': {
+    slug: 'nacional-tv',
+    name: 'Nacional TV',
     m3u8Url:
-      'https://live.obslivestream.com/autenticatvmux/tracks-v2a1/mono.m3u8',
-    fuente: 'https://autenticatv.pe/',
+      'https://stmv.panel.grupolimalive.com/nacionaltv/nacionaltv/playlist.m3u8',
+    fuente: 'https://ntvperu.pe/senal-en-vivo/',
     flag: 'pe'
   },
   'panamericana-tv': {
@@ -135,37 +120,36 @@ const peruSources: SourcesMap = {
   'onda-digital-tv': {
     slug: 'onda-digital-tv',
     name: 'Onda Digital TV',
-    m3u8Url: 'https://v4.tustreaming.cl:443/ondadigitaltv/index.m3u8',
+    m3u8Url: 'https://ed1ov.live.opencaster.com/CwCfFGFdtebB/index.m3u8',
     fuente: 'https://ondadigitaltv.com',
     flag: 'pe'
   },
-  Radiotropical: {
-    slug: 'Radiotropical',
-    name: 'Radiotropical',
-    m3u8Url: 'https://videoserver.tmcreativos.com:19360/raditropical/raditropical.m3u8',
-    fuente: 'https://radiotropical.pe/television/',
+  uci: {
+    slug: 'uci',
+    name: 'UCI',
+    m3u8Url: 'https://mediastreamm.com:3449/live/mlecaroslive.m3u8',
+    fuente: 'https://uci.pe/envivo',
     flag: 'pe'
   },
-  Doblec: {
-    slug: 'Doblec',
-    name: 'Doble c',
-    m3u8Url: 'https://videoserver.tmcreativos.com:19360/raditropical/raditropical.m3u8',
-    fuente: 'https://doblectelevision.com/',
+  'uci-2': {
+    slug: 'uci-2',
+    name: 'UCI 2',
+    youtubeChannelId: 'UCdl1ygFwPa6lUdNYPLjoAGg',
     flag: 'pe'
   },
-  'Antarestvradio': {
-    slug: 'Antarestvradio',
-    name: 'Antarestvradio',
-    srcUrl:
-      'http://www.ujjina.com/cdn/antarestv.html',
-    fuente: 'http://antarestvradio.com/',
+  'cable-vision-peru': {
+    slug: 'cable-vision-peru',
+    name: 'Cable Visión Perú',
+    m3u8Url:
+      'https://5ee0faac3bbae.streamlock.net/visionnoticias/visionnoticias/playlist.m3u8',
+    fuente: 'https://www.cablevisionperu.pe/?page_id=1938',
     flag: 'pe'
   },
   atv: {
     slug: 'atv',
     name: 'ATV',
     m3u8Url:
-      'https://d3krdjs7is1y42.cloudfront.net/ATVpe/df13ed57843877b21ad969184ab6888f.sdp/playlist.m3u8',
+      'https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv.smil/playlist.m3u8',
     fuente: 'https://www.atv.pe/envivo-atv',
     flag: 'pe'
   },
@@ -173,7 +157,7 @@ const peruSources: SourcesMap = {
     slug: 'atv-mas',
     name: 'ATV Más',
     m3u8Url:
-      'https://d3krdjs7is1y42.cloudfront.net/ATVmas/74ee4169b59e6f987ae3d77317309109.sdp/playlist.m3u8',
+      'https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv-mas.smil/playlist.m3u8',
     fuente: 'https://www.atv.pe/envivo-atvmas',
     flag: 'pe'
   },
@@ -232,12 +216,12 @@ const peruSources: SourcesMap = {
     fuente: 'https://www.ondadigital.pe/',
     flag: 'pe'
   },
-  'rcr': {
-    slug: 'rcr',
-    name: '📻 Radio RCR',
+  'radio-tropical': {
+    slug: 'radio-tropical',
+    name: '📻 Radio Tropical',
     m3u8Url:
-      'https://5c3fb01839654.streamlock.net:1963/iptvrcrperu/livercrperutv/chunklist_w249757421.m3u8',
-    fuente: 'https://www.rcrperu.com/radio-en-vivo/',
+      'https://5ee0faac3bbae.streamlock.net/raditropical/raditropical/playlist.m3u8',
+    fuente: 'https://radiotropical.pe/',
     flag: 'pe'
   },
   'radio-uno': {
@@ -255,26 +239,10 @@ const venezuelaSources: SourcesMap = {
     youtubeChannelId: 'UCfJtBtmhnIyfUB6RqXeImMw',
     flag: 've'
   },
-  'vpl': {
-    slug: 'vpl',
-    name: 'VPL',
-    m3u8Url:
-      'https://streannlivevpi.cachefly.net/Protected/sp=1;dirmatch=true;ip=179.6.168.55/07be233ae2ee3239c5d2f6c6c05aea8322773a66ece55e6df5c8d2ea4c783149/vpi1/vpi1/chunks.m3u8',
-    fuente: 'https://vpitv.com/en-vivo/',
-    flag: 've'
-  },
   vpitv: {
     slug: 'vpitv',
     name: 'VPItv',
     youtubeChannelId: 'UCVFiIRuxJ2GmJLUkHmlmj4w',
-    flag: 've'
-  },
-  'telesur': {
-    slug: 'telesur',
-    name: 'telesur',
-    m3u8Url:
-      'https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8',
-    fuente: 'https://www.telesurtv.net/',
     flag: 've'
   },
   'telesur-tv': {
@@ -320,14 +288,6 @@ const brasilSources: SourcesMap = {
     name: 'CNN Brasil',
     youtubeChannelId: 'UCvdwhh_fDyWccR42-rReZLw',
     flag: 'br'
-  },
-  'cnn-brasil2': {
-    slug: 'cnn-brasil2',
-    name: 'cnn brasil 2',
-    srcUrl:
-      'https://www.youtube.com/embed/4wpDjhfzzvg?enablejsapi=1&autoplay=1&embed_config=%7B%22adsConfig%22%3A%7B%22adTagParameters%22%3A%7B%22iu%22%3A%22%2F21920083859%2Fweb%2Fheader-aovivo%22%2C%22pmnd%22%3A0%2C%22pmxd%22%3A30000%2C%22pmad%22%3A2%7D%7D%2C%22relatedChannels%22%3A%5B%22UC6WLCEXdr_IU4DB5V7sPkzw%22%2C%22UC7f35v8GI1O_f6x2PfeOutQ%22%2C%22UCbrVBUVa2bwYRofc-lVeAnA%22%5D%7D&origin=https://www.cnnbrasil.com.br&widgetid=1',
-    fuente: 'https://www.cnnbrasil.com.br/',
-    flag: 'br'
   }
 };
 const usaSources: SourcesMap = {
@@ -335,7 +295,7 @@ const usaSources: SourcesMap = {
     slug: 'cnn-us',
     name: 'CNN US',
     m3u8Url:
-      'https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8',
+      'https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8',
     fuente: 'https://us.cnn.com',
     flag: 'us'
   },
@@ -343,22 +303,6 @@ const usaSources: SourcesMap = {
     slug: 'telemundo',
     name: 'Noticias Telemundo',
     youtubeChannelId: 'UCRwA1NUcUnwsly35ikGhp0A',
-    flag: 'us'
-  },
-  'telemundo2': {
-    slug: 'telemundo2',
-    name: 'telemundo 2',
-    m3u8Url:
-      'http://45.166.92.22:58001/play/a00r/index.m3u8',
-    fuente: 'https://www.telemundo.com/',
-    flag: 'us'
-  },
-  'sky-news2': {
-    slug: 'sky-news2',
-    name: 'sky news 2',
-    m3u8Url:
-      'https://linear021-gb-hls1-prd-ak.cdn.skycdp.com/Content/HLS_001_sd/Live/channel(skynews)/05_hd30.m3u8',
-    fuente: 'https://news.sky.com/watch-live',
     flag: 'us'
   },
   'sky-news': {
@@ -377,22 +321,6 @@ const usaSources: SourcesMap = {
     slug: 'fox-news-now',
     name: 'NewsNOW from FOX',
     youtubeChannelId: 'UCJg9wBPyKMNA5sRDnvzmkdg',
-    flag: 'us'
-  },
-  'fox-news-now2': {
-    slug: 'fox-news-now2',
-    name: 'NewsNOW from FOX 2',
-    m3u8Url:
-      'https://dcs-live-ue4.mp.lura.live/server/play/5Awwm3GfagVzfpdA/rendition.m3u8?track=video-3&anvsid=m177635096-n6a32b0668377e22cc524226431dd3029&ts=1700692664&anvtrid=a9e2fc2825c5107998a8871e718f3fac',
-    fuente: 'https://www.livenowfox.com/',
-    flag: 'us'
-  },
-  'abc7': {
-    slug: 'abc7',
-    name: 'ABC7',
-    m3u8Url:
-      'https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8?ad._v=2&ad.preroll=0&ad.fill_slate=1&ad.ametr=1&ad.vid=otv-11316941',
-    fuente: 'https://abc7.com/',
     flag: 'us'
   },
   abc7: {
@@ -423,7 +351,6 @@ const usaSources: SourcesMap = {
     slug: 'record-news',
     name: 'Record News',
     youtubeChannelId: 'UCuiLR4p6wQ3xLEm15pEn1Xw',
-    fuente: 'https://www.youtube.com/@recordnews',
     flag: 'us'
   },
   'abc-news': {

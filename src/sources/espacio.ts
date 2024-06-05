@@ -10,8 +10,8 @@ export const espacioSources: SourcesMap = {
   "space-videos": {
     slug: "space-videos",
     name: "🔭 NASA ISS Live Stream",
-    youtubeVideoId: "_HGQZlK08gQ",
-    fuente: "https://www.youtube.com/channel/UCakgsb0w7QB0VHdnCc-OVEA/live",
+    youtubeVideoId: "86YLFOog4GM",
+    fuente: "https://www.youtube.com/watch?v=86YLFOog4GM",
   },
   "space-videos-2": {
     slug: "space-videos-2",
@@ -21,29 +21,28 @@ export const espacioSources: SourcesMap = {
   "nasa-spaceflight": {
     slug: "nasa-spaceflight",
     name: "🔭 NASASpaceflight",
-    youtubeVideoId: "Jm8wRjD3xVA",
-    fuente: "https://www.youtube.com/channel/UCSUu1lih2RifWkKtDOJdsBA/live",
+    youtubeChannelId: "UCSUu1lih2RifWkKtDOJdsBA",
   },
   "espacio-tierra": {
     slug: "espacio-tierra",
     name: "🔭 Earth view from ISS",
-    youtubeVideoId: "YX6ZkguphNs",
-    fuente: "https://www.youtube.com/channel/UCaG0IHN1RMOZ4-U3wDXAkwA/live",
+    youtubeVideoId: "XBPjVzSoepo",
+    fuente: "https://www.youtube.com/watch?v=XBPjVzSoepo",
   },
   labpadre: {
     slug: "labpadre",
     name: "🔭 LabPadre",
-    youtubeChannelId: "https://www.youtube.com/channel/UCFwMITSkc1Fms6PoJoh1OUQ/live",
+    youtubeChannelId: "UCFwMITSkc1Fms6PoJoh1OUQ",
   },
   spacex: {
     slug: "spacex",
     name: "🔭 SpaceX",
-    youtubeChannelId: "https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ/live",
+    youtubeChannelId: "UCtI0Hodo5o5dUb67FeUjDeA",
   },
   "blue-origin": {
     slug: "blue-origin",
     name: "🔭 Blue Origin",
-    youtubeChannelId: "https://www.youtube.com/channel/UCSUu1lih2RifWkKtDOJdsBA/live",
+    youtubeChannelId: "UCVxTHEKKLxNjGcvVaZindlg",
   },
   "virgin-galactic": {
     slug: "virgin-galactic",
