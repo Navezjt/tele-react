@@ -20,7 +20,7 @@ const ListPage: NextPage = () => {
   return (
     <MainLayout>
       <Head>
-        <title>Tele - List</title>
+        <title>CNJTV - List</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
