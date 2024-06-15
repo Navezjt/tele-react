@@ -67,7 +67,7 @@ const MonitorPage = ({
   return (
     <MainLayout>
       <Head>
-        <title>CNJTV</title>
+        <title>Ver Tele</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="row">Redirecting...</div>
