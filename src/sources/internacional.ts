@@ -116,7 +116,6 @@ const peruSources: SourcesMap = {
     name: 'Nacional TV',
     iframeSrc:
       'https://play.agenciastreaming.com:8081/nacionaltv/embed.html',
-    fuente: 'https://panamericana.pe/tvenvivo',
     m3u8Url:
       'https://play.agenciastreaming.com:8081/nacionaltv/tracks-v1/index.fmp4.m3u8',
     fuente: 'https://nacionaltvperu.com/',
