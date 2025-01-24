@@ -149,7 +149,7 @@ const peruSources: SourcesMap = {
     slug: 'atv',
     name: 'ATV',
     m3u8Url:
-      'https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv.smil/playlist.m3u8',
+      'https://d19e55ehz2il4i.cloudfront.net/index.m3u8',
     fuente: 'https://www.atv.pe/envivo-atv',
     flag: 'pe'
   },
@@ -157,8 +157,16 @@ const peruSources: SourcesMap = {
     slug: 'atv-mas',
     name: 'ATV Más',
     m3u8Url:
-      'https://d2tr4gdfol9ja.cloudfront.net/atv/smil:atv-mas.smil/playlist.m3u8',
+      'https://d1svme839xkbsn.cloudfront.net/index.m3u8',
     fuente: 'https://www.atv.pe/envivo-atvmas',
+    flag: 'pe'
+  },
+  'atv-sur': {
+    slug: 'atv-sur',
+    name: 'ATV SUR',
+    m3u8Url:
+      'https://d3r5ioyjqcy69v.cloudfront.net/index.m3u8',
+    fuente: 'https://www.atv.pe/envivo-atvsur',
     flag: 'pe'
   },
   'la-republica': {
