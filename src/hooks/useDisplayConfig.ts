@@ -8,7 +8,7 @@ export const defaultDisplayConfig: DisplayConfig = {
   grid: { size: 4 }
 };
 export function useDisplayConfig() {
-  return useLocalStorageState<DisplayConfig>('__tele_display_config__', {
+  return useLocalStorageState<DisplayConfig>('__CNJTV_display_config__', {
     ssr: true,
     defaultValue: defaultDisplayConfig
   });
