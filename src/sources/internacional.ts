@@ -90,6 +90,9 @@ const colombiaSources: SourcesMap = {
     slug: 'red-mas-noticias',
     name: 'RED MÁS Noticias',
     youtubeChannelId: 'UCpcvsK0UAI3MIHsjjj3CgMg',
+    m3u8Url:
+      'https://inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel(REDMASHDWEB)/master.m3u8',
+    fuente: 'https://redmas.com.co/senal-en-vivo/',
     flag: 'co'
   }
 };
