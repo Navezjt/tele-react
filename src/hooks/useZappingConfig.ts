@@ -7,7 +7,7 @@ export type ZappingConfig = {
 
 export function useZappingConfig() {
   const [zappingConfig, setZappingConfig, zappingConfigMeta] =
-    useLocalStorageState<ZappingConfig>('__tele_zapping_config__', {
+    useLocalStorageState<ZappingConfig>('__CNJTV_zapping_config__', {
       defaultValue: undefined,
       ssr: true
     });
