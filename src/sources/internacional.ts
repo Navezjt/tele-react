@@ -98,51 +98,71 @@ const peruSources: SourcesMap = {
   'tv-peru': {
     slug: 'tv-peru',
     name: 'TVPerú Noticias',
+    iframeSrc:
+      'https://irtp-player.iblups.com/tvperuhd',
+    iframeSrc:
+      'https://irtp-player.iblups.com/tvperunoticias',
+    iframeSrc:
+      'https://irtp-player.iblups.com/tvperuinternacional',
     youtubeChannelId: 'UCkZCoc42IipR1ucqJmIehsA',
+    fuente: 'https://www.tvperu.gob.pe/',
     flag: 'pe'
   },
   'nacional-tv': {
     slug: 'nacional-tv',
     name: 'Nacional TV',
+    iframeSrc:
+      'https://play.agenciastreaming.com:8081/nacionaltv/embed.html',
+    fuente: 'https://panamericana.pe/tvenvivo',
     m3u8Url:
-      'https://stmv.panel.grupolimalive.com/nacionaltv/nacionaltv/playlist.m3u8',
-    fuente: 'https://ntvperu.pe/senal-en-vivo/',
+      'https://play.agenciastreaming.com:8081/nacionaltv/tracks-v1/index.fmp4.m3u8',
+    fuente: 'https://nacionaltvperu.com/',
     flag: 'pe'
   },
   'panamericana-tv': {
     slug: 'panamericana-tv',
     name: 'Panamericana TV',
     iframeSrc:
-      'https://geo.dailymotion.com/player/x5poh.html?video=x774s7s&autoplay=true&volume=0',
+      'https://player.kick.com/ptv5',
     fuente: 'https://panamericana.pe/tvenvivo',
     flag: 'pe'
   },
   'onda-digital-tv': {
     slug: 'onda-digital-tv',
     name: 'Onda Digital TV',
-    m3u8Url: 'https://ed1ov.live.opencaster.com/CwCfFGFdtebB/index.m3u8',
-    fuente: 'https://ondadigitaltv.com',
+    iframeSrc:
+      'https://v4.tustreaming.cl:2000/VideoPlayer/ondadigitaltv?autoplay=1',
+    m3u8Url: 'https://v4.tustreaming.cl:443/ondadigitaltv/index.m3u8',
+    fuente: 'https://ondadigitaltv.com/',
     flag: 'pe'
   },
-  uci: {
-    slug: 'uci',
-    name: 'UCI',
-    m3u8Url: 'https://mediastreamm.com:3449/live/mlecaroslive.m3u8',
-    fuente: 'https://uci.pe/envivo',
+  autenticatv: {
+    slug: 'autenticatv',
+    name: 'Sutenticatv',
+    m3u8Url: 'https://live.obslivestream.com/autenticatvmux/tracks-v1a1/mono.m3u8',
+    fuente: 'https://autenticatv.pe/',
     flag: 'pe'
   },
-  'uci-2': {
-    slug: 'uci-2',
-    name: 'UCI 2',
+  'x-tv': {
+    slug: 'x-tv',
+    name: 'X-TV',
     youtubeChannelId: 'UCdl1ygFwPa6lUdNYPLjoAGg',
+    m3u8Url: 'https://bradm.ax/build/202403/22/7f3ef98516bf62a2f18d05db9e0b2b9099705a66/index.html?mediaUrl=https%3A%2F%2Flive.obslivestream.com%2Fxtv%2Findex.m3u8',
+    flag: 'pe'
+  },
+  'x-tv-plus': {
+    slug: 'x-tv-plus',
+    name: 'X-TV-PLUS',
+    youtubeChannelId: 'UCdl1ygFwPa6lUdNYPLjoAGg',
+    m3u8Url: 'https://bradm.ax/build/202403/22/7f3ef98516bf62a2f18d05db9e0b2b9099705a66/index.html?mediaUrl=https%3A%2F%2Flive.obslivestream.com%2Fxtvplus%2Findex.m3u8',
     flag: 'pe'
   },
   'cable-vision-peru': {
     slug: 'cable-vision-peru',
     name: 'Cable Visión Perú',
-    m3u8Url:
-      'https://5ee0faac3bbae.streamlock.net/visionnoticias/visionnoticias/playlist.m3u8',
-    fuente: 'https://www.cablevisionperu.pe/?page_id=1938',
+    iframeSrc:
+      'https://videoserver.tmcreativos.com:2020/VideoPlayer/visionnoticias?autoplay=1',
+    fuente: 'https://www.cablevisiontv.pe/en-vivo/',
     flag: 'pe'
   },
   atv: {
@@ -187,6 +207,18 @@ const peruSources: SourcesMap = {
     slug: 'latina-noticias',
     name: 'Latina Noticias',
     youtubeChannelId: 'UCpSJ5fGhmAME9Kx2D3ZvN3Q',
+    iframeSrc:
+      'https://rudo.video/live/latina',
+    fuente: 'https://www.latina.pe/tvenvivo',
+    flag: 'pe'
+  },
+  'karibena-pe': {
+    slug: 'karibena-pe',
+    name: '📻 Radio karibena PE',
+    youtubeChannelId: 'UCIGV0oiNkdK2-tnf10DNp2A',
+    iframeSrc:
+      'https://live-player.egostreaming.pe/karibenatv_685a-pe-a5676-584412/embed.html?autoplay=0',
+    fuente: 'https://tvgratisperu.com/pages/peru/karibena.php',
     flag: 'pe'
   },
   'ovacion-tv': {
@@ -201,19 +233,23 @@ const peruSources: SourcesMap = {
     slug: 'pbo-radio',
     name: '📻 PBO',
     youtubeChannelId: 'UCgR0st4ZLABi-LQcWNu3wnQ',
+    iframeSrc:
+      'https://player.twitch.tv?channel=pboperu&parent=pbo.pe&referrer=https%3A%2F%2Fpbo.pe%2Ftvenvivo%2F',
+    fuente: 'https://pbo.pe/tvenvivo/',
     flag: 'pe'
   },
   'santa-rosa': {
     slug: 'santa-rosa',
     name: '📻 Radio Santa Rosa',
     youtubeChannelId: 'UCIGV0oiNkdK2-tnf10DNp2A',
+    fuente: 'https://radiosantarosa.com.pe/en-vivo-rsr/',
     flag: 'pe'
   },
   'san-borja': {
     slug: 'san-borja',
     name: '📻 Radio San Borja Tv',
     m3u8Url:
-      'https://5c3fb01839654.streamlock.net:1963/iptvsanborja/livesanborjatv/playlist.m3u8',
+      'https://cast.stre.live7.la:3168/live/sanborjatevelive.m3u8',
     fuente: 'https://radiosanborjatv.com/',
     flag: 'pe'
   },
@@ -227,8 +263,10 @@ const peruSources: SourcesMap = {
   'radio-tropical': {
     slug: 'radio-tropical',
     name: '📻 Radio Tropical',
+    iframeSrc:
+      'https://videoserver.tmcreativos.com:2020/VideoPlayer/raditropical?autoplay=1',
     m3u8Url:
-      'https://5ee0faac3bbae.streamlock.net/raditropical/raditropical/playlist.m3u8',
+      'https://videoserver.tmcreativos.com:19360/raditropical/raditropical.m3u8',
     fuente: 'https://radiotropical.pe/',
     flag: 'pe'
   },
@@ -236,7 +274,43 @@ const peruSources: SourcesMap = {
     slug: 'radio-uno',
     name: '📻 Radio Uno',
     youtubeChannelId: 'UCK0lpuL9PQb3I5CDcu7Y7bA',
+    iframeSrc:
+      'https://www.youtube.com/embed/live_stream?enablejsapi=1&channel=UCK0lpuL9PQb3I5CDcu7Y7bA&autoplay=0&cc_load_policy=0&cc_lang_pref=&iv_load_policy=1&modestbranding=0&rel=1&fs=1&playsinline=0&autohide=2&theme=dark&color=red&controls=1&',
+    fuente: 'https://radiouno.pe/',
     flag: 'pe'
+  }
+};
+
+};
+const mexicoSources: SourcesMap = {
+  wirp: {
+    slug: 'wirp',
+    name: 'WIRP',
+    youtubeChannelId: 'UCFxHplbcoJK9m70c4VyTIxg',
+    m3u8Url:
+      'https://streamwipr.pr/hls/stream/index.m3u8?',
+    fuente: 'https://wipr.pr/envivo/',
+    flag: 'pr'
+  },
+  telemundopr: {
+    slug: 'telemundopr',
+    name: 'TelemundoPR',
+    youtubeChannelId: 'UCFxHplbcoJK9m70c4VyTIxg',
+    iframeSrc:
+      'https://www.telemundopr.com/en-vivo',
+    fuente: 'https://www.telemundopr.com/en-vivo',
+    flag: 'pr'
+  },
+  teleonce: {
+    slug: 'teleonce',
+    name: 'Teleonce',
+    youtubeChannelId: 'UCFxHplbcoJK9m70c4VyTIxg',
+    iframeSrc:
+      'https://player.restream.io/?token=4c57ad65917d4802a65ba18911e366cf',
+    m3u8Url:
+      'https://customer-gllhkkbamkskdl1p.cloudflarestream.com/eyJhbGciOiJSUzI1NiIsImtpZCI6ImI3YmIwODNmMDhkNmQ5NWExZjIzZWE3ZWRhOWY4NTZhIn0.eyJzdWIiOiJmMjRjMjNjZjFlOTgzYmIyYjQ2MzA0MjIzZGFkNDVjMCIsImtpZCI6ImI3YmIwODNmMDhkNmQ5NWExZjIzZWE3ZWRhOWY4NTZhIiwiZXhwIjoxNzM3NzgxNTg5LCJhY2Nlc3NSdWxlcyI6W3sidHlwZSI6ImlwLmdlb2lwLmNvdW50cnkiLCJhY3Rpb24iOiJibG9jayIsImNvdW50cnkiOlsiUlUiLCJCWSJdfV19.hdS5OhqlWNsnlpaM3sv7xAhNj-dD-gXfiaft4NsvWOArg3KpLH_4ovCC24ioAHKyLu9gMRHTz95T3Lg7Uu_VOgvottkTsXP9OnsZiGULATdHdogY-yskfeJboEKBm907iBUg4IbBBgnn-cLl8vqSo0nfn1tRRMKVl6sBH3rDYTsLl_Jo4-cth8GsGY8cTWfAhzqscr6ohd-46NLuwHQ7Bq0zCdWrwa_CprbXHjUP8GLO_KUgSqKRUJQYLuiOLvc3CT8WZbt2Port-zEuFLJXHURmAbl4feUlxJnYpyI2xjucLOpHLDXnjup2OMWDPbSc7y6AjGgZ5rF6t04nPOt9fg/manifest/video.m3u8',
+    fuente: 'https://teleonce.com/programas/pr-en-vivo/',
+    flag: 'pr'
   }
 };
 
