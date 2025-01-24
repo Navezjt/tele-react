@@ -7,7 +7,7 @@ const MonitorPage: NextPage = () => {
   return (
     <MainLayout>
       <Head>
-        <title>CNJTV</title>
+        <title>Ver Tele</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Monitor />

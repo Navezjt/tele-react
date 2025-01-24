@@ -3,7 +3,7 @@ import { defaultGrid } from '../components/GridDisplay/initialGrid';
 import { SourceNode } from '../pages/monitor/types';
 
 export function useSavedGrid() {
-  return useLocalStorageState<SourceNode[]>('__CNJTV_grid__', {
+  return useLocalStorageState<SourceNode[]>('__tele_grid__', {
     defaultValue: defaultGrid,
     ssr: true
   });

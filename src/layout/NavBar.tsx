@@ -13,7 +13,7 @@ export function NavBar({}: Props) {
     <Navbar variant="dark">
       <Container fluid>
         <Link href="/" legacyBehavior passHref>
-          <Navbar.Brand>CNJTV</Navbar.Brand>
+          <Navbar.Brand>tele</Navbar.Brand>
         </Link>
         <button
           type="button"
