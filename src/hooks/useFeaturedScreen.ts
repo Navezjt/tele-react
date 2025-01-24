@@ -4,7 +4,7 @@ import { ScreenType } from '../pages/monitor/types';
 import { defaultDisplayConfig } from './useDisplayConfig';
 
 export function useFeaturedScreen() {
-  return useLocalStorageState<ScreenType>('__tele_featured_monitor__', {
+  return useLocalStorageState<ScreenType>('__CNJTV_featured_monitor__', {
     ssr: true,
     defaultValue: {
       config: defaultDisplayConfig,
