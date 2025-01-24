@@ -9,6 +9,6 @@ export const defaultGrid: SourceNode[] = [
     sourceSlug: '24HTVN_YT',
     uuid: uuidv4()
   },
-  { sourceSlug: 'TVMAS', uuid: uuidv4() },
+  { sourceSlug: 'hch-vivo', uuid: uuidv4() },
   { sourceSlug: 'RELOJ_CHILE', uuid: uuidv4() }
 ];
